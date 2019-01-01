@@ -3,7 +3,7 @@
 Just download the source or clone this repository 
 
 ```
-git clone https://github.com/Malchenko-Yehor/Skygate-Code-Challenge.git
+git clone https://github.com/Malchenko-Yehor/JMR-task.git
 ```
 
 Then install dependencies:
