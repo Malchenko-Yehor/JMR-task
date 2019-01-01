@@ -1,0 +1,25 @@
+$text-color: #fff;
+$font-size: 120px;
+$padding: 10px;
+
+.home-title {
+  position: absolute;
+  bottom: calc(50% - 18px);
+  width: 100%;
+  padding-left: $padding;
+  padding-right: $padding;
+
+  text-align: center;
+  color: $text-color;
+  font-family: 'Bakery', Arial, Helvetica, sans-serif;
+  font-size: $font-size;
+
+}
+
+@media screen and (max-width: 430px) {
+  .home-title {
+    top: 17%;
+    bottom: unset;
+    font-size: 0.7 * $font-size;
+  }
+}

@@ -1,0 +1,31 @@
+$font-size: 13px;
+$text-color: #fff;
+$border-color: #a83a5e;
+$background-color: #a83a5e;
+$background-color-hover: transparent;
+$text-color-hover: #a83a5e;
+
+.login-button {
+  appearance: none;
+  width: 265px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #a83a5e;
+  border: 1px solid $border-color;
+
+  color: $text-color;
+  font-family: 'Aleo', serif;
+  font-size: $font-size;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+
+  transition: background-color 0.35s, color 0.35s;
+
+  &:hover {
+    cursor: pointer;
+    outline: 0;
+    color: $text-color-hover;
+    background-color: $background-color-hover
+  }
+}

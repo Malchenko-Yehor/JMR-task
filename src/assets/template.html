@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JMR</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="header__link">ABOUT</a>
+        <a href="#" class="header__link">OFFER</a>
+        <a href="#" class="header__logo">
+            <img src=<%=require("./img/raspberry.png") %> alt="raspberry">
+        </a>
+        <a href="#" class="header__link">GALLERY</a>
+        <a href="#" class="header__link">CONTACT</a>
+    </header>
+
+    <div class="home-title">Raspberry kingdom</div>
+
+    <button class="start-button">Enter the gates</button>
+
+    <div class="login-form">
+        <button class="login-form__close-button">X</button>
+        <button class="login-form__close-button-mobile">X</button>
+
+        <form class="login-form__form">
+            <div class="login-form__wrapper">
+                <h2 class="login-form__title">Are you a Raspberry Knight?</h2>
+                <input type="email" required class="login-form__input input" placeholder="Email">
+                <input type="password" required minlength="5" class="login-form__input input" placeholder="Password">
+                <input type="submit" class="login-form__button login-button" value="LOG IN">
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <a href="#" class="footer__link">© 2014 RASPBERRY KINGDOM</a>
+        <div class="footer__cookies-privacy">
+            <a href="#" class="footer__link">Cookies</a>
+            <span class="footer__pipe">|</span>
+            <a href="#" class="footer__link">Privacy</a>
+        </div>
+        <a href="#" class="footer__link">
+            Design by <span class="footer__designers">Wizard of Oz</span>
+        </a>
+    </footer>
+</body>
+
+</html>

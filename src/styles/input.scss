@@ -1,0 +1,25 @@
+$text-color: #858788;
+$text-color-focus: #000;
+$border-color: #292d2f;
+$border-color-focus: #580de4;
+$font-szie: 13px;
+$padding: 10px;
+
+.input {
+  text-align: center;
+  border: 0;
+  border-bottom: 1px solid $border-color;
+  padding-bottom: 10px;
+  color: $text-color;
+  font-family: 'Aleo', serif;
+  font-size: $font-szie;
+  font-weight: 400;
+  outline: 0;
+
+  transition: color 0.35s, border-bottom-color 0.35s;
+
+  &:focus {
+    color: $text-color-focus;
+    border-bottom-color: $border-color-focus;
+  }
+}
